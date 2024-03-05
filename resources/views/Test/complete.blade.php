@@ -13,6 +13,7 @@
             <p>会員情報の更新に失敗しました</p>
         @endif
     </div>
+    <a href="{{ route('top') }}">トップへ</a>
 </body>
 
 </html>

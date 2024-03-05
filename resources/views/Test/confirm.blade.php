@@ -44,6 +44,7 @@
         <input type="hidden" name="id" value="{{ $userData['id'] }}">
         <input type="submit" value="変更">
     </form>
+    <a href="{{ route('top') }}">トップへ</a>
 </body>
 
 </html>

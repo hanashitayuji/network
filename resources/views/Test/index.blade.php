@@ -64,6 +64,7 @@
             <input type="submit" id="confirm" value="内容確認画面へ">
         </form>
     </div>
+    <a href="{{ route('top') }}">トップへ</a>
 </body>
 
 </html>

@@ -26,6 +26,7 @@
             <p class="dividing" id="dividing"></p>
         </div>
     </div>
+    <a href="{{ route('top') }}">トップへ</a>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ use App\Http\Controllers\CalculationController;
 // });
 Route::controller(TopController::class)->group(function () {
     // トップ画面
-    Route::get('/', 'index');
+    Route::get('/', 'index')->name('top');
 });
 
 // 会員情報変更テスト関連
