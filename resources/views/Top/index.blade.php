@@ -6,7 +6,7 @@
         <h1>カリキュラム用　テスト一覧</h1>
         <div>
             <a href="{{ route('test-A') }}">会員情報編集画面(仮)</a>
-            <a href="#">テスト</a>
+            <a href="{{ route('test-B') }}">計算ツール</a>
         </div>
     </body>
 </html>
